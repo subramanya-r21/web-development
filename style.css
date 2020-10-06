@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.todo-list{
+    list-style: none;
+    padding: 0;
+
+}
+
+.todo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.todo-item{
+    /* background-color: blue; */
+    width: 10.5em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.checkBtn{
+    background-color: chartreuse;
+    width: 5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    height: 2em;
+    
+}
+
+.uncheckBtn{
+    background-color: orangered;
+    width: 5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    height: 2em;
+    
+}
+
+.completed{
+    /* background-color: orchid; */
+    text-decoration: line-through;
+    opacity: 0.25;
+    transition: ease-in-out;
+}
